@@ -1,0 +1,16 @@
+:root{
+    --main-color: #ffd801;
+    --heading-color: #212529;
+    --p-color: #868e96;
+    --main-font: 'Roboto', sans-serif;
+}
+
+body{
+    font-family: var(--main-font);
+    height: 3000px
+}
+
+::selection{
+    color: #fff;
+    background-color: var(--main-color)
+}
