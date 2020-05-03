@@ -11,3 +11,12 @@ window.onscroll = function () {
         logo.setAttribute('src', 'images/logo.png');
     }   
 }
+
+// Animation
+window.onload = function () {
+    let smartPhone = document.getElementById("smart-phone");
+    console.log(smartPhone);
+    smartPhone.style.animationPlayState = 'running';
+}
+
+console.log('ahmed');

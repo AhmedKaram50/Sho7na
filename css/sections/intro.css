@@ -3,7 +3,8 @@
     background-size: cover;
     position: relative;
     z-index: ;
-    padding-top: 280px
+    padding-top: 280px;
+    overflow: hidden;
 }
 
 .intro .overlay{
@@ -25,7 +26,10 @@
 }
 
 .intro .intro-img img{
-    height: 400px
+    height: 400px;
+    position: relative;
+    animation: imgtop 1.5s 1 ease forwards;
+    animation-play-state: paused
 }
 
 .intro .intro-info h1{
@@ -67,3 +71,15 @@
 .transparent{
     background: transparent
 }
+
+/*== Start Animation ==*/
+@keyframes imgtop{
+    0%{
+        top: 100%
+    }
+
+    100%{
+        top: 0
+    }
+}
+/*== End Animation ==*/
