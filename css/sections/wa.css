@@ -1,0 +1,44 @@
+
+  /*start about-us*/
+  .boxs{
+      padding: 0px;
+  }
+  .about-us-2 h1{
+      color:#ffca0a;
+  }
+.about-us-2 .row{
+    border: 1px solid #bfb6b6;
+    border-top: 28px silid black;
+    border-top: 10px solid #ffca0a;
+    margin-top: 24px;
+    box-shadow: 1px 1px 13px 15px #bfb6b6;
+}
+.boxs .container{
+    padding-top: 42px;
+}
+.boxs .container h3{
+    color: #ffca0a;
+    font-weight: 800;
+}
+.boxs .container p{
+    color: #807070;
+    margin-left: 4px;;
+}
+.boxs .container a{
+    padding: 10px 31px;
+    color: #736767;
+    background-color: #ffca0a;
+    margin-top: 16px;
+    display: inline-flex;
+    font-weight: 900;
+    text-decoration: none;
+    border: 1px solid #73676770;
+    text-transform: capitalize;
+    transition: 1s;
+    box-shadow: 1px 1px 2px 1px #736767;
+}
+.boxs .container a:hover{
+    letter-spacing: 3.4px;
+    background-color: #fff;
+    color: #ffca0a;
+}

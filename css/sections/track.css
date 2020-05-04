@@ -1,0 +1,52 @@
+.track{
+    background: url(../../images/smart-phone.jpg) center;
+    background-size: cover;
+    padding: 120px;
+    position: relative;
+    z-index: 5;
+    font-family: var(--one-font)
+}
+
+.track .overlay{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.track .row{
+    margin: 0 auto
+}
+
+.track input{
+    height: 45px;
+    border-radius: 30px;
+    padding: 0 20px;
+    text-align: right
+}
+
+.track button{
+    border-radius: 0;
+    font-size: 20px;
+    padding: 10px 50px;
+    border-color: var(--main-color);
+    background-color: var(--main-color);
+    transition: all 0.5s ease;
+    margin-right: 15px;
+    border-radius: 30px;
+    transition: all 0.3s ease
+}
+
+.track button:hover{
+    background: transparent;
+    border-color: var(--main-color);
+}
+
+.track .col-lg-5,
+.track .col-lg-7{
+    padding: 0
+}

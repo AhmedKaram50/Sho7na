@@ -12,9 +12,33 @@ html(lang="en")
    //-- Start Intro
    include ../pug/sections/intro.pug
    //-- End Intro
-   //-- Start About Us Section
+   //-- Start About Features
    include ../pug/sections/features.pug
+   //-- End About Features
+   //-- Start About Us Section
+   include ../pug/helper/mixin.pug
+   include ../pug/sections/about-us.pug
+   section(class="services text-center")
+    .container
+     div(class="services-heading")
+      h1 مميزات التطبيق
+      p نعتبر أنفسنا مستشارين لعملائنا، وما يميزنا عن غيرنا هو بيئة العمل الدّاخلية المبنيّة على العمل الجماعي والإخلاص لما نعمل، كلّ هذا لإيماننا بقوة 
+     div(class="row")
+      +features('s1', 'سريع', 'المبنيّة على العمل الجماعي والإخلاص لما نعمل، كلّ هذا لإيماننا بقوة واحدة وهي إحداث الفرق.')
+      +features('s2', 'قوى', 'المبنيّة على العمل الجماعي والإخلاص لما نعمل، كلّ هذا لإيماننا بقوة واحدة وهي إحداث الفرق.')
+      +features('s3', 'مجانى', 'المبنيّة على العمل الجماعي والإخلاص لما نعمل، كلّ هذا لإيماننا بقوة واحدة وهي إحداث الفرق.')
+      +features('s4', 'طالب', 'المبنيّة على العمل الجماعي والإخلاص لما نعمل، كلّ هذا لإيماننا بقوة واحدة وهي إحداث الفرق.')
+      +features('s2', 'سحابى', 'المبنيّة على العمل الجماعي والإخلاص لما نعمل، كلّ هذا لإيماننا بقوة واحدة وهي إحداث الفرق.')
+      +features('s4', 'خفيف', 'المبنيّة على العمل الجماعي والإخلاص لما نعمل، كلّ هذا لإيماننا بقوة واحدة وهي إحداث الفرق.')
+      +features('s1', 'فوق', 'المبنيّة على العمل الجماعي والإخلاص لما نعمل، كلّ هذا لإيماننا بقوة واحدة وهي إحداث الفرق.')
+      +features('s3', 'صفيح', 'المبنيّة على العمل الجماعي والإخلاص لما نعمل، كلّ هذا لإيماننا بقوة واحدة وهي إحداث الفرق.')
    //-- End About Us Section
+   //-- Start Gallery
+   include ../pug/sections/track.pug
+   //-- End Gallery
+   //-- Start Gallery
+   include ../pug/sections/gallery.pug
+   //-- End Gallery
 
    include ../pug/scripts/scripts.pug
    

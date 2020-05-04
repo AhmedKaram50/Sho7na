@@ -1,0 +1,43 @@
+/*========================Start Services Section==========================*/
+.services{
+    padding: 80px 100px;
+}
+
+.services .services-heading h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: var(--one-font);
+}
+
+.services .services-heading p{
+    color: var(--text-color);
+    font-size: 16px;
+    font-family: var(--one-font);
+    margin: 20px auto 80px auto;
+    width: 60%;
+}
+
+.services .featur-box{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 40px 30px;
+    transition: all 0.3s ease-in-out
+}
+
+.services .featur-box:hover{
+    box-shadow: var(--box-shadow);
+}
+
+.services .featur-box .feature-info h4{
+    font-family: var(--one-font);
+    margin: 24px 0 15px 0;
+}
+
+.services .featur-box .feature-info p{
+    font-size: 14px;
+}
+/*========================End Services Section==========================*/
+@media(max-width: 992px ){
+    .services{
+        padding: 40px 0px;
+    }
+}
