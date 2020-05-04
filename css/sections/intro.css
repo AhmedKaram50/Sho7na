@@ -2,7 +2,6 @@
     background: url(../../images/apple.jpg) center;
     background-size: cover;
     position: relative;
-    z-index: ;
     padding-top: 280px;
     overflow: hidden;
 }
